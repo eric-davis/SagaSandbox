@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{37E46386-E9AD-4B96-8CA5-137B5ABE3A94}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D799A616-0E26-44B3-8751-3AD038C9B1AC}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		NuGet.config = NuGet.config
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Saga", "src\Saga\Saga.xproj", "{6491AF92-06FD-4A62-818B-DEB110CE1D09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6491AF92-06FD-4A62-818B-DEB110CE1D09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6491AF92-06FD-4A62-818B-DEB110CE1D09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6491AF92-06FD-4A62-818B-DEB110CE1D09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6491AF92-06FD-4A62-818B-DEB110CE1D09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6491AF92-06FD-4A62-818B-DEB110CE1D09} = {37E46386-E9AD-4B96-8CA5-137B5ABE3A94}
+	EndGlobalSection
+EndGlobal
